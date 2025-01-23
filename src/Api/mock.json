@@ -1,0 +1,1583 @@
+{
+    "restaurants":[
+    {
+        "info": {
+            "id": "5624",
+            "name": "Subway",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/9dfcdbda-20e7-4e4a-9755-573b500fc81f_5624.JPG",
+            "locality": "F.C. Road",
+            "areaName": "Prabhat Road",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "sandwich",
+                "Salads",
+                "wrap",
+                "Healthy Food"
+            ],
+            "avgRating": 4.2,
+            "parentId": "2",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "18K+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-24 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "3.9",
+                    "ratingCount": "1.3K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/subway-f-c-road-prabhat-road-rest5624",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "23719",
+            "name": "McDonald's",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/9be86e06-df23-49de-9718-8764fe2002f4_23719.jpg",
+            "locality": "JM Road",
+            "areaName": "Shivajinagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "Beverages",
+                "Cafe",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "630",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "28K+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 2.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-24 01:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹199"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/mcdonalds-jm-road-shivajinagar-rest23719",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "21395",
+            "name": "Brahma Garden",
+            "cloudinaryImageId": "uvltlhppkqfium1fpuay",
+            "locality": "Sinhagad Road",
+            "areaName": "Sinhagad Road",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "North Indian",
+                "South Indian",
+                "Punjabi",
+                "Biryani",
+                "Snacks",
+                "Fast Food",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.5,
+            "parentId": "49529",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "65K+",
+            "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 7.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "7.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "₹175 OFF",
+                "subHeader": "ABOVE ₹1100",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.0",
+                    "ratingCount": "11K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/brahma-garden-sinhagad-road-rest21395",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "13909",
+            "name": "Wadeshwar",
+            "cloudinaryImageId": "uwny9zuejmpvoznipn3c",
+            "locality": "Deccan Gymkhana",
+            "areaName": "Deccan Gymkhana",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "South Indian",
+                "Street Food",
+                "Snacks",
+                "Beverages",
+                "Healthy Food",
+                "Indian"
+            ],
+            "avgRating": 4.6,
+            "parentId": "1770",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "24K+",
+            "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV": {"header": "40% OFF",
+                "subHeader": "UPTO ₹80"},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.1",
+                    "ratingCount": "7.9K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/wadeshwar-deccan-gymkhana-rest13909",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "42581",
+            "name": "Burger King",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/55d0daa1-ad2e-4893-be06-4709c5c68d49_42581.JPG",
+            "locality": "The Pavillion Mall",
+            "areaName": "Shivajinagar",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Burgers",
+                "American"
+            ],
+            "avgRating": 4.1,
+            "parentId": "166",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "13K+",
+            "sla": {
+                "deliveryTime": 54,
+                "lastMileTravel": 4.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "4.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-24 02:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹59"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/burger-king-the-pavillion-mall-shivajinagar-rest42581",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "590695",
+            "name": "Blue Tokai Coffee Roasters",
+            "cloudinaryImageId": "1a0521375f07155eda2f1ed263206831",
+            "locality": "F.C. Road",
+            "areaName": "F.C. Road",
+            "costForTwo": "₹600 for two",
+            "cuisines": [
+                "Cafe",
+                "Coffee",
+                "Beverages"
+            ],
+            "avgRating": 4.6,
+            "parentId": "2682",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "570",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 1.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "15% OFF",  
+                "subHeader": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.3",
+                    "ratingCount": "553"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/blue-tokai-coffee-roasters-f-c-road-rest590695",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "25628",
+            "name": "Barista Coffee",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/29/c5e0d7be-fe37-43f1-8bbe-b47de11f360a_25628.jpg",
+            "locality": "Law College Road",
+            "areaName": "Erandwane",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Beverages",
+                "Snacks",
+                "Desserts"
+            ],
+            "avgRating": 4.4,
+            "parentId": "416281",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "949",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 3.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "3.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-24 01:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹79"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "3.9",
+                    "ratingCount": "1.1K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/barista-coffee-law-college-road-erandwane-rest25628",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "263632",
+            "name": "Veg Meals by Lunchbox",
+            "cloudinaryImageId": "awdiaapk6kyqau0tj5vo",
+            "locality": "Shaniwar Peth FC",
+            "areaName": "Shaniwar Peth",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.3,
+            "veg": true,
+            "parentId": "21938",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "139",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹159",
+                "discountCalloutInfo": {
+                    "message": "Free Delivery",
+                    "logoCtx": {
+                        "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+                    }
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/veg-meals-by-lunchbox-fc-shaniwar-peth-rest263632",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "5370",
+            "name": "Cafe Goodluck",
+            "cloudinaryImageId": "jsxy3zkxvxzkuqqpvjgd",
+            "locality": "Deccan Gymkhana",
+            "areaName": "Deccan Gymkhana",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani",
+                "Snacks",
+                "Beverages",
+                "Bakery"
+            ],
+            "avgRating": 4.5,
+            "parentId": "6539",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "47K+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "25% OFF",
+                "subHeader": "UPTO ₹125"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.2",
+                    "ratingCount": "49K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/cafe-goodluck-deccan-gymkhana-rest5370",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "801218",
+            "name": "Makhani Darbar",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/20/69da0236-146d-456d-bfa3-2d19e3f0cd01_801218.JPG",
+            "locality": "Shanivarpeth",
+            "areaName": "Senapati Bapat Road",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Kebabs",
+                "Mughlai",
+                "Beverages",
+                "Desserts"
+            ],
+            "avgRating": 4.1,
+            "parentId": "478595",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "24",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹23",
+                "discountCalloutInfo": {
+                    "message": "Free Delivery",
+                    "logoCtx": {
+                        "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+                    }
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/makhani-darbar-shanivarpeth-senapati-bapat-road-rest801218",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "200980",
+            "name": "Irani Cafe",
+            "cloudinaryImageId": "lwysdaf2bdkz40mqtjbr",
+            "locality": "Deccan gymkhana",
+            "areaName": "Parbhat road",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Bakery",
+                "Snacks",
+                "Fast Food",
+                "Desserts",
+                "Beverages",
+                "Indian",
+                "Street Food"
+            ],
+            "avgRating": 4.6,
+            "parentId": "4057",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "15K+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV": {   "header": "15% OFF",  
+            "subHeader": "FLAT DEAL"},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/irani-cafe-deccan-gymkhana-parbhat-road-rest200980",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "774704",
+            "name": "McCafe by McDonald's",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/19/cc6a9b6a-f2a8-405b-bd1d-d68cd972babb_774704.jpg",
+            "locality": "FC Road",
+            "areaName": "Shivaji Nagar",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Beverages",
+                "Desserts"
+            ],
+            "avgRating": 4.5,
+            "parentId": "8263",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "5",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 1.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV": {   "header": "15% OFF",  
+            "subHeader": "FLAT DEAL"},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/mccafe-by-mcdonalds-fc-road-shivaji-nagar-rest774704",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "590693",
+            "name": "Suchali's Artisan Bakehouse",
+            "cloudinaryImageId": "f9f262d0c80a41de4c1a890eb36d1085",
+            "locality": "Ghole Road",
+            "areaName": "Ghole Road",
+            "costForTwo": "₹600 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.6,
+            "parentId": "196351",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "284",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 1.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "1.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "15% OFF",   
+                "subHeader": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/suchalis-artisan-bakehouse-ghole-road-rest590693",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "566221",
+            "name": "Faasos' Signature Wraps & Rolls",
+            "cloudinaryImageId": "c583ca6ce40b426797a78ae2ac91f2ec",
+            "locality": "Shaniwar Peth FC",
+            "areaName": "Shaniwar Peth",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Fast Food",
+                "Snacks",
+                "North Indian",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.1,
+            "parentId": "340366",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "130",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹23",
+                "discountCalloutInfo": {
+                    "message": "Free Delivery",
+                    "logoCtx": {
+                        "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+                    }
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/faasos-signature-wraps-and-rolls-fc-shaniwar-peth-rest566221",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "774705",
+            "name": "McDonald's Gourmet Burger Collection",
+            "cloudinaryImageId": "7bed421fadb83a09c1a987698e66cf20",
+            "locality": "FC Road",
+            "areaName": "Shivaji Nagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "Beverages",
+                "Cafe",
+                "Desserts"
+            ],
+            "avgRating": 4.4,
+            "parentId": "10761",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "15",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 1.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV": {   "header": "15% OFF",  
+            "subHeader": "FLAT DEAL"},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/mcdonalds-gourmet-burger-collection-fc-road-shivaji-nagar-rest774705",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "826676",
+            "name": "Pastas By Pizza Hut",
+            "cloudinaryImageId": "67d17abfeb3a5da6103b9424f6dbe973",
+            "locality": "Subhash Nagar",
+            "areaName": "Shukrawar Peth",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Pastas"
+            ],
+            "avgRating": 3.7,
+            "parentId": "306806",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "42",
+            "sla": {
+                "deliveryTime": 34,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-24 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV": {   "header": "15% OFF",  
+            "subHeader": "FLAT DEAL"},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/pastas-by-pizza-hut-subhash-nagar-shukrawar-peth-rest826676",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "412737",
+            "name": "Sweet Bengal",
+            "cloudinaryImageId": "i39qgflu6azefcqs5phc",
+            "locality": "Dhole Patil Road",
+            "areaName": "Dhole Patil Road",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Sweets",
+                "Indian",
+                "Snacks",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "1250",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "2.0K+",
+            "sla": {
+                "deliveryTime": 47,
+                "lastMileTravel": 4.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "4.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 22:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.3",
+                    "ratingCount": "62"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/sweet-bengal-dhole-patil-road-rest412737",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "213654",
+            "name": "WarmOven Cake & Desserts",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/29/d44b4cae-5218-49a6-8e55-76e44f3b0235_213654.JPG",
+            "locality": "Kothrud",
+            "areaName": "Kothrud",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts",
+                "Ice Cream",
+                "Beverages",
+                "Cakes"
+            ],
+            "avgRating": 4.3,
+            "parentId": "9696",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "4.2K+",
+            "sla": {
+                "deliveryTime": 36,
+                "lastMileTravel": 5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "5.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-24 05:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹449",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "3.7",
+                    "ratingCount": "62"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/warmoven-cake-and-desserts-kothrud-rest213654",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "518515",
+            "name": "Home Plate by EatFit",
+            "cloudinaryImageId": "e975b355e30661b40e3522641689cede",
+            "locality": "Paud Road",
+            "areaName": "Kothrud",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "North Indian",
+                "Home Food",
+                "Healthy Food",
+                "Indian",
+                "Punjabi",
+                "South Indian",
+                "Rajasthani",
+                "Maharashtrian",
+                "Snacks",
+                "Desserts"
+            ],
+            "avgRating": 4.1,
+            "parentId": "301197",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "671",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 6.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "6.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹99"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/home-plate-by-eatfit-paud-road-kothrud-rest518515",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "518514",
+            "name": "Great Indian Khichdi by EatFit",
+            "cloudinaryImageId": "6e44fd7f1e5cd9967edfe47c10247671",
+            "locality": "Paud Road",
+            "areaName": "Kothrud",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Indian",
+                "Home Food",
+                "Healthy Food",
+                "Snacks"
+            ],
+            "avgRating": 4.2,
+            "veg": true,
+            "parentId": "319582",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1.4K+",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 6.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "6.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-01-23 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹99"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-13b1203e-5073-4f7b-9fb1-f1bfb687ab9c"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/pune/great-indian-khichdi-by-eatfit-paud-road-kothrud-rest518514",
+            "type": "WEBLINK"
+        }
+    }
+]
+}

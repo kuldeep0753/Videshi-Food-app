@@ -1,0 +1,155 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Rangala Punjabi",
+        "offer": "Rs.50 OFF ABOVE Rs.199",
+        "rating": 4.3,
+        "time": "40-45 mins",
+        "dishes": "North Indian, South Indian",
+        "address": "VIP Road",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jsxy3zkxvxzkuqqpvjgd"
+      },
+      {
+        "id": 2,
+        "name": "Tandoori Treats",
+        "offer": "Rs.100 OFF ABOVE Rs.499",
+        "rating": 4.6,
+        "time": "30-35 mins",
+        "dishes": "Tandoori, Indian",
+        "address": "Sector 21, Chandigarh",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/1435254d9cd88a0c05b3242c0ddb372e"
+      },
+      {
+        "id": 3,
+        "name": "Spicy Aroma",
+        "offer": "Flat Rs.30 OFF",
+        "rating": 4.2,
+        "time": "25-30 mins",
+        "dishes": "Chinese, Thai",
+        "address": "DLF Phase 3, Gurgaon",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/8/17/01f65335-2fbd-4761-a156-bcf8cca8916d_6187fd71-205b-4c80-8a5b-35a40284b4f9.JPG"
+      },
+      {
+        "id": 4,
+        "name": "Biryani Bliss",
+        "offer": "Rs.75 OFF ABOVE Rs.299",
+        "rating": 4.8,
+        "time": "50-60 mins",
+        "dishes": "Hyderabadi Biryani, Mughlai",
+        "address": "Connaught Place, Delhi",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fyg9qf4t8vuzpa5fvyn8"
+      },
+      {
+        "id": 5,
+        "name": "The Vegan Table",
+        "offer": "Flat 10% OFF",
+        "rating": 4.0,
+        "time": "20-25 mins",
+        "dishes": "Vegan, Salads",
+        "address": "Koregaon Park, Pune",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/p7egp3va5g0deevdh4j5"
+      },
+      {
+        "id": 6,
+        "name": "Pizza Palace",
+        "offer": "Rs.150 OFF ABOVE Rs.599",
+        "rating": 4.5,
+        "time": "30-40 mins",
+        "dishes": "Pizza, Italian",
+        "address": "MG Road, Bangalore",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/avow8bpv9kibmdakimwq"
+      },
+      {
+        "id": 7,
+        "name": "Burger Bonanza",
+        "offer": "Buy 1 Get 1 Free",
+        "rating": 3.9,
+        "time": "15-20 mins",
+        "dishes": "Burgers, Beverages",
+        "address": "Saket, Delhi",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/rn0dqg7dpququjtvx1s6"
+      },
+      {
+        "id": 8,
+        "name": "Kebab Junction",
+        "offer": "Free Dessert Above Rs.299",
+        "rating": 4.4,
+        "time": "35-45 mins",
+        "dishes": "Kebabs, Mughlai",
+        "address": "Salt Lake, Kolkata",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/c80e992bc30a96f57ba580219743e774"
+      },
+      {
+        "id": 9,
+        "name": "Chaat Corner",
+        "offer": "Flat Rs.20 OFF",
+        "rating": 3.8,
+        "time": "10-15 mins",
+        "dishes": "Chaat, Indian Snacks",
+        "address": "Lajpat Nagar, Delhi",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xljvwxzldaocfxf1qpvz"
+      },
+      {
+        "id": 10,
+        "name": "Seafood Delight",
+        "offer": "Flat Rs.100 OFF",
+        "rating": 4.6,
+        "time": "40-50 mins",
+        "dishes": "Seafood, Continental",
+        "address": "Versova, Mumbai",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/3/8789e650-aeb7-4189-ab0a-65b7b23cdfec_80593.jpg"
+      },
+      {
+        "id": 11,
+        "name": "South Spice",
+        "offer": "Rs.50 OFF ABOVE Rs.199",
+        "rating": 4.2,
+        "time": "20-25 mins",
+        "dishes": "South Indian",
+        "address": "Jayanagar, Bangalore",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fjogor9s2rhseusnopww"
+      },
+      {
+        "id": 12,
+        "name": "Dessert House",
+        "offer": "Buy 2 Get 1 Free",
+        "rating": 4.3,
+        "time": "25-30 mins",
+        "dishes": "Cakes, Pastries",
+        "address": "C.G. Road, Ahmedabad",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/wnqshvcml6uz9ojvcuqc"
+      },
+      {
+        "id": 13,
+        "name": "Punjabi Haveli",
+        "offer": "Flat Rs.75 OFF",
+        "rating": 4.5,
+        "time": "35-40 mins",
+        "dishes": "Punjabi, North Indian",
+        "address": "Bandra West, Mumbai",
+        "image": "https://b.zmtcdn.com/data/pictures/5/19263755/e81e19123862565389ea90ee16b251b2_featured_v2.jpg?output-format=webp"
+      },
+      {
+        "id": 14,
+        "name": "Wok Express",
+        "offer": "Rs.100 OFF ABOVE Rs.349",
+        "rating": 4.1,
+        "time": "25-30 mins",
+        "dishes": "Chinese, Asian",
+        "address": "Park Street, Kolkata",
+        "image": "https://b.zmtcdn.com/data/pictures/2/18615572/a5f100cc7cb1d197defd27e559ba07dc_featured_v2.jpg?output-format=webp"
+      },
+      {
+        "id": 15,
+        "name": "Shawarma Station",
+        "offer": "Flat Rs.50 OFF",
+        "rating": 3.7,
+        "time": "15-20 mins",
+        "dishes": "Middle Eastern, Shawarma",
+        "address": "Banjara Hills, Hyderabad",
+        "image": "https://b.zmtcdn.com/data/pictures/chains/2/18545152/cddf8893dc7c751506af12007b3314c2_featured_v2.jpg?output-format=webp"
+      }
+    ]
+  }
+  
