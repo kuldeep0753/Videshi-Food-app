@@ -166,3 +166,15 @@
   .filter-btn:active {
     transform: scale(0.95); /* Slightly shrink on click */
   }
+
+
+  
+.loading{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes{
+  width: 100px;
+  height: auto;
+}

@@ -1,12 +1,13 @@
 import { RestaurantCard } from "../RestaurantCard/RestaurantCard";
 import { restaurantData } from "../../utils/mockData";
 import { useEffect, useState } from "react";
+import {Shimmer} from "../Shimmer/Shimmer";
 
 let AllRestaurantCard =
   restaurantData.data.cards[0].groupedCard.cardGroupMap.RESTAURANT.cards;
 
 const Body = () => {
-  const [filterCard, setFilterCard] = useState(AllRestaurantCard);
+  const [filterCard, setFilterCard] = useState([]);
   console.log(filterCard);
 
   useEffect(() => {
@@ -19,17 +20,14 @@ const Body = () => {
     );
     const json = await data.json();
     AllRestaurantCard =
-      json.data.cards[0].groupedCard.cardGroupMap.RESTAURANT.cards;
+      json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards;
 
-    console.log(AllRestaurantCard);
-    const originalCard = AllRestaurantCard[0].card.card.info;
+    const originalCard = AllRestaurantCard[0]?.card?.card?.info;
     setFilterCard(originalCard);
     setFilterCard(AllRestaurantCard);
-  };
-  // if(filterCard.length === 0){
-  //   return <h1>Loading page</h1>
-  // }
-  return filterCard.length === 0?  <h1>Loading page</h1>:(<div className="body">
+  }
+
+  return filterCard.length === 0? <Shimmer/>:(<div className="body">
     <div className="filter">
       <button
         className="filter-btn"
