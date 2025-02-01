@@ -142,3 +142,27 @@
     margin: 10px;
   }
   
+  .filter {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .filter-btn {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+
+  .filter-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+
+  .filter-btn:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+  }

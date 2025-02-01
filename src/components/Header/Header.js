@@ -1,10 +1,10 @@
-
+import { LOGO_LINK } from "../../utils/constants";
 
 export  const Header = () => {
     return (
       <div className="header">
         <div className="restro-image">
-          <img src="./assets/images/burger.svg" alt="not loading" />
+          <img src={LOGO_LINK} alt="not loading" />
         </div>
         <div className="nav-link">
           <ul>
