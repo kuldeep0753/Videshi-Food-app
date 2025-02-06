@@ -1,7 +1,6 @@
 import { CARD_LOGO } from "../../utils/constants";
 
 export const RestaurantCard = (props) => {
-    console.log(props);
   const { resData } = props;
     const {
         cloudinaryImageId,
