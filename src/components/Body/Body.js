@@ -9,8 +9,11 @@ const Body = () => {
   // console.log(AllRestaurantCard);
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
+  const [searchRestaurant, setSearchRestaurant] = useState([]);
+  console.log("1")
   useEffect(() => {
     fetchData();
+    console.log("2");
   }, []);
 
   const fetchData = async () => {
@@ -20,17 +23,21 @@ const Body = () => {
     const json = await data.json();
     let AllRestaurantCard =
       json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards;
-      console.log(AllRestaurantCard)
+      // console.log(AllRestaurantCard)
 
     // const originalCard = AllRestaurantCard[0]?.card?.card?.info;
     // console.log(originalCard);
     // setListOfRestaurant(originalCard);
     setListOfRestaurant(AllRestaurantCard);
+    setSearchRestaurant(AllRestaurantCard);
   };
-  return listOfRestaurant.length === 0 ? (
-    <Shimmer />
+  return listOfRestaurant.length === 0 ? (<>
+  {console.log("3")}
+  <Shimmer />
+  </>
+   
   ) : (
-    <div className="body">
+    <div className="body">{console.log("4")}
       <div className="filter">
         {/* Search Functionality */}
         <div className="search-container">
@@ -46,10 +53,21 @@ const Body = () => {
           <button
             className="search-btn"
             onClick={() => {
+              console.log(searchRestaurant.length); //57
               // let alphaMatch = /^[a-zA-Z]+$/;
-
-
-              console.log(searchText);
+              let searchBarRestaurant = searchRestaurant.filter((res)=>{
+                return res?.card?.card?.info?.name.toLowerCase().startsWith(searchText.toLowerCase(), 0);
+              })
+              console.log(searchBarRestaurant); //9
+             
+              setSearchRestaurant(searchBarRestaurant);
+              console.log(searchRestaurant.length); //57
+              searchRestaurant.map((rescard, index) => (
+                <RestaurantCard resData={rescard.card?.card?.info} key={index} />
+              ))
+              setListOfRestaurant([])
+              
+              console.log(listOfRestaurant);
             }}
           >
             SEARCH
