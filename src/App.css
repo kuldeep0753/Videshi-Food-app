@@ -22,6 +22,19 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
+
+    /* Login Button */
+
+    .toggleBtn{
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
   
   /* Restaurant image */
   .restro-image img {
@@ -142,3 +155,64 @@
     margin: 10px;
   }
   
+  .filter {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .search-btn,.filter-btn {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+
+  .search-btn,.filter-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+
+  .search-btn,.filter-btn:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
+
+  .search-container{
+    margin-right: 20px;
+  } 
+
+  .item-input{
+    padding: 5px 12px;
+    border-radius: 10px;
+    width: 530px;
+    height: 30px;
+    font-size: larger;
+    font-family: math;
+    font-weight: 500;
+    } 
+     /* .search-btn{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  } */
+
+
+  
+.loading{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes{
+  width: 100px;
+  height: auto;
+}

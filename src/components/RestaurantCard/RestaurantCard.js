@@ -1,36 +1,30 @@
+import { CARD_LOGO } from "../../utils/constants";
+
 export const RestaurantCard = (props) => {
-    const { resData } = props;
-    //   console.log(resData.aggregatedDiscountInfoV);
+  const { resData } = props;
     const {
-      cloudinaryImageId,
-      aggregatedDiscountInfoV,
+        cloudinaryImageId,
+        aggregatedDiscountInfoV3,
       name,
       avgRatingString,
       sla,
       cuisines,
       locality,
-    } = resData.info;
-    return (
+    } = resData;
+  
+  return (
+    <>
       <div className="card-details">
-        <img
-          src={
-            "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/" +
-            cloudinaryImageId
-          }
-          alt="not load"
-        />
-        <p className="offer">
-          {aggregatedDiscountInfoV.header +
-            " " +
-            aggregatedDiscountInfoV.subHeader}
-        </p>
+        <img src={CARD_LOGO + cloudinaryImageId} alt="not load" />
+        <p className="offer" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>{aggregatedDiscountInfoV3?.header }<span style={{paddingLeft:"5px"}}>{aggregatedDiscountInfoV3?.subHeader?.trim() || "No Discount Available"}</span></p>
         <b className="restaurant-name">{name}</b>
         <b className="rating">
           Rating: {avgRatingString}
           <span className="time">{sla.deliveryTime}min</span>
         </b>
-        <b className="dishes-name">{cuisines}</b>
+        <b className="dishes-name">{cuisines.join(" ,")}</b>
         <p className="address">{locality}</p>
       </div>
-    );
-  };
+    </>
+  );
+};
