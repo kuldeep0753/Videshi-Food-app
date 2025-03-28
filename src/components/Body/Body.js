@@ -1,16 +1,13 @@
 import { RestaurantCard } from "../RestaurantCard/RestaurantCard";
-import { restaurantData } from "../../utils/mockData";
+// import { restaurantData } from "../../utils/mockData";
 import { useEffect, useState } from "react";
 import { Shimmer } from "../Shimmer/Shimmer";
 
-// let AllRestaurantCard = restaurantData.data.cards[0].groupedCard.cardGroupMap.RESTAURANT.cards;
-
 const Body = () => {
-  // console.log(AllRestaurantCard);
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [searchRestaurant, setSearchRestaurant] = useState([]);
-  console.log("1")
+  console.log("1");
   useEffect(() => {
     fetchData();
     console.log("2");
@@ -23,21 +20,17 @@ const Body = () => {
     const json = await data.json();
     let AllRestaurantCard =
       json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards;
-      // console.log(AllRestaurantCard)
-
-    // const originalCard = AllRestaurantCard[0]?.card?.card?.info;
-    // console.log(originalCard);
-    // setListOfRestaurant(originalCard);
     setListOfRestaurant(AllRestaurantCard);
     setSearchRestaurant(AllRestaurantCard);
   };
-  return listOfRestaurant.length === 0 ? (<>
-  {console.log("3")}
-  <Shimmer />
-  </>
-   
+  return listOfRestaurant.length === 0 ? (
+    <>
+      {console.log("3")}
+      <Shimmer />
+    </>
   ) : (
-    <div className="body">{console.log("4")}
+    <div className="body">
+      {console.log("4")}
       <div className="filter">
         {/* Search Functionality */}
         <div className="search-container">
@@ -55,24 +48,21 @@ const Body = () => {
             onClick={() => {
               console.log(searchRestaurant.length); //57
               // let alphaMatch = /^[a-zA-Z]+$/;
-              let searchBarRestaurant = searchRestaurant.filter((res)=>{
-                return res?.card?.card?.info?.name.toLowerCase().startsWith(searchText.toLowerCase(), 0);
-              })
+              //Here always search from the array of object, And here we are not changing the array for setRestaurant.
+              let searchBarRestaurant = searchRestaurant.filter((res) => {
+                return res?.card?.card?.info?.name
+                  .toLowerCase()
+                  .startsWith(searchText.toLowerCase(), 0);
+              });
               console.log(searchBarRestaurant); //9
-             
-              setSearchRestaurant(searchBarRestaurant);
-              console.log(searchRestaurant.length); //57
-              searchRestaurant.map((rescard, index) => (
-                <RestaurantCard resData={rescard.card?.card?.info} key={index} />
-              ))
-              setListOfRestaurant([])
-              
+              setListOfRestaurant(searchBarRestaurant);
               console.log(listOfRestaurant);
             }}
           >
             SEARCH
           </button>
         </div>
+        {/* Top Rated  */}
         <div className="filter-top-rated">
           {/* Top Rated Cards */}
           <button

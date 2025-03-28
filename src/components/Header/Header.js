@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect} from "react";
 import { LOGO_LINK } from "../../utils/constants";
 
 
 export  const Header = () => {
+  /**TODO:Never declare any hooks under condition and looping and outside the higher function */
   const [toggleBtn,setToggleBtn] = useState("Log In")
-  
+
+  /**Initially it is call atleast once
+   * if no dependency ==> then render every time
+   * if dependency with empty array ==> called once
+   * if dependency on any value ==> then render when changes happen
+   */
+  useEffect(()=>{console.log("I am rendering on condition😎")},[]);
+  // TOggle Login LogOut
   const handleLoginBtn = ()=>{
     toggleBtn == "Log In"? setToggleBtn("Log Out"): setToggleBtn("Log In");
   }

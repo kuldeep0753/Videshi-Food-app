@@ -1,7 +1,7 @@
 import { CARD_LOGO } from "../../utils/constants";
 
 export const RestaurantCard = (props) => {
-  const { resData } = props;
+  const { resData } = props; //Destructuring the object
     const {
         cloudinaryImageId,
         aggregatedDiscountInfoV3,
