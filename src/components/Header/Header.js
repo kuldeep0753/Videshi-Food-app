@@ -1,5 +1,7 @@
 import { useState, useEffect} from "react";
 import { LOGO_LINK } from "../../utils/constants";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 
 export  const Header = () => {
@@ -23,10 +25,10 @@ export  const Header = () => {
         </div>
         <div className="nav-link">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Cart</li>
-            <li>Support</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>            
+            <li><Link to="/form">Form</Link></li>            
+            <li><Link to="/">🧑‍🦲Sign In</Link></li>
             <li><button className="toggleBtn" onClick={handleLoginBtn}>{toggleBtn}</button></li>
           </ul>
         </div>

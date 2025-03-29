@@ -1,0 +1,10 @@
+
+
+ const RestaurantMenu= ()=>{
+
+    return <>
+    <h1></h1>
+    </>
+}
+
+export default RestaurantMenu;

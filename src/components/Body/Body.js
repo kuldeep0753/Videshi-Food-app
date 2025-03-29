@@ -7,17 +7,18 @@ const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [searchRestaurant, setSearchRestaurant] = useState([]);
-  console.log("1");
+  // console.log("1");
   useEffect(() => {
     fetchData();
-    console.log("2");
+    // console.log("2");
   }, []);
 
+  const RESTAURANT_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.5204303&lng=73.8567437&restaurantId=25628&catalog_qa=undefined&submitAction=ENTER";
+
   const fetchData = async () => {
-    const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/search/v3?lat=18.5204303&lng=73.8567437&str=Vegan&trackingId=undefined&submitAction=ENTER&queryUniqueId=4636b9b5-9963-d273-79db-c9b6b1afd5ff&selectedPLTab=RESTAURANT"
-    );
+    const data = await fetch(RESTAURANT_API);
     const json = await data.json();
+    console.log(json);
     let AllRestaurantCard =
       json?.data?.cards[0]?.groupedCard?.cardGroupMap?.RESTAURANT?.cards;
     setListOfRestaurant(AllRestaurantCard);
@@ -30,7 +31,7 @@ const Body = () => {
     </>
   ) : (
     <div className="body">
-      {console.log("4")}
+      {/* {console.log("4")} */}
       <div className="filter">
         {/* Search Functionality */}
         <div className="search-container">
@@ -54,9 +55,9 @@ const Body = () => {
                   .toLowerCase()
                   .startsWith(searchText.toLowerCase(), 0);
               });
-              console.log(searchBarRestaurant); //9
+              // console.log(searchBarRestaurant); //9
               setListOfRestaurant(searchBarRestaurant);
-              console.log(listOfRestaurant);
+              // console.log(listOfRestaurant);
             }}
           >
             SEARCH
@@ -72,7 +73,7 @@ const Body = () => {
                 (data) => data.card?.card?.info.avgRating > 4.5
               );
               setListOfRestaurant(filterRatingCard);
-              console.log(filterRatingCard.length);
+              // console.log(filterRatingCard.length);
             }}
           >
             TOP RATED
