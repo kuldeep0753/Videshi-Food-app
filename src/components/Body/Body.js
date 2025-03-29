@@ -1,6 +1,7 @@
 import { RestaurantCard } from "../RestaurantCard/RestaurantCard";
 import { useEffect, useState } from "react";
 import { Shimmer } from "../Shimmer/Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState([]); // List of all restaurants to display
@@ -20,8 +21,9 @@ const Body = () => {
       const data = await fetch(RESTAURANT_API);
       const json = await data.json();
       const allRestaurantCard =
-        json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
-      
+        json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+          ?.restaurants || [];
+
       // Update state with fetched restaurant data
       setListOfRestaurant(allRestaurantCard);
       setSearchRestaurant(allRestaurantCard);
@@ -78,8 +80,11 @@ const Body = () => {
 
       {/* Render restaurant cards */}
       <div className="restaurant-card">
-        {listOfRestaurant.map((rescard, index) => (
-          <RestaurantCard resData={rescard.info} key={index} />
+        {listOfRestaurant.map((rescard) => (
+          <Link to={"/restaurant/" + rescard.info.id} key={rescard.info.id}>
+            <RestaurantCard resData={rescard.info}  />
+            {/* {console.log(rescard)} */}
+          </Link>
         ))}
       </div>
     </div>
