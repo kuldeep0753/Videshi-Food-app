@@ -12,6 +12,7 @@ const RestaurantMenu = () => {
   // State to store the restaurant menu data
   const [restaurantItemList, setRestaurantItemList] = useState([]);
 
+  console.log(useState());
   // Extracting the menu items from the API response (nested structure)
   const arrayItem =
     restaurantItemList[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
