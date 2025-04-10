@@ -2,11 +2,14 @@ import { RestaurantCard } from "../RestaurantCard/RestaurantCard";
 import { useEffect, useState } from "react";
 import { Shimmer } from "../Shimmer/Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../../utils/useOnlineStatus";
 
 const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState([]); // List of all restaurants to display
   const [searchText, setSearchText] = useState(""); // State to store the search input value
   const [searchRestaurant, setSearchRestaurant] = useState([]); // Backup list for search functionality
+
+  const onlineStatus = useOnlineStatus(true);
 
   const RESTAURANT_API =
     "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5204303&lng=73.8567437&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
@@ -51,6 +54,14 @@ const Body = () => {
   // Render loading shimmer if data is not yet available
   if (listOfRestaurant.length === 0) {
     return <Shimmer />;
+  }
+
+  if(onlineStatus === false){
+    return (<>
+    <h1>
+      Looks like you lost internet Connection
+    </h1>
+    </>)
   }
 
   return (

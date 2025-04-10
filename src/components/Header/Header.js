@@ -2,11 +2,13 @@ import { useState, useEffect} from "react";
 import { LOGO_LINK } from "../../utils/constants";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import useOnlineStatus from "../../utils/useOnlineStatus";
 
 
 export  const Header = () => {
   /**TODO:Never declare any hooks under condition and looping and outside the higher function */
-  const [toggleBtn,setToggleBtn] = useState("Log In")
+  const [toggleBtn,setToggleBtn] = useState("Log In");
+  const onlineStatus = useOnlineStatus(true);
 
   /**Initially it is call atleast once
    * if no dependency ==> then render every time
@@ -29,6 +31,7 @@ export  const Header = () => {
             <li><Link to="/about">About</Link></li>            
             <li><Link to="/form">Form</Link></li>            
             <li><Link to="/">🧑‍🦲Sign In</Link></li>
+            <li><Link to="/">Staus:{onlineStatus?"🟢":"🔴"}</Link></li>
             <li><button className="toggleBtn" onClick={handleLoginBtn}>{toggleBtn}</button></li>
           </ul>
         </div>
