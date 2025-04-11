@@ -1,5 +1,5 @@
 // Importing necessary modules from React and ReactDOM
-import React from "react";
+import React, {lazy,Suspense} from "react";
 import ReactDOM from "react-dom/client";
 
 // Importing global CSS file
@@ -32,6 +32,10 @@ const App = () => {
   );
 };
 
+// Lazy loading concept
+const Grocery = lazy(()=>import("./components/Lazy-Loading/Grocery/Grocery"))
+
+
 // ✅ **Router Configuration**
 // Define routes and nested structure using `createBrowserRouter`
 const appRouter = createBrowserRouter([
@@ -43,6 +47,7 @@ const appRouter = createBrowserRouter([
       { path: "/about", element: <About /> }, // Route for `About` page
       { path: "/form", element: <Form /> },
       { path: "/menu", element: <Menu /> },
+      { path: "/grocery", element: <Suspense fallback={<h1>Suspended due to taking more time here. Wait for a while Loading...</h1>}><Grocery /> </Suspense>},
       { path: "/restaurant/:resId", element: <RestaurantMenu /> }, // Dynamic route for `RestaurantMenu`
     ],
     errorElement: <Error />, // Fallback component for unknown routes or errors

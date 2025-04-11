@@ -31,6 +31,7 @@ export  const Header = () => {
             <li><Link to="/about">About</Link></li>            
             <li><Link to="/form">Form</Link></li>            
             <li><Link to="/">🧑‍🦲Sign In</Link></li>
+            <li><Link to="/grocery">Grocery🍰</Link></li>
             <li><Link to="/">Staus:{onlineStatus?"🟢":"🔴"}</Link></li>
             <li><button className="toggleBtn" onClick={handleLoginBtn}>{toggleBtn}</button></li>
           </ul>
