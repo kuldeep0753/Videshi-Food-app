@@ -1,10 +1,12 @@
 import { CARD_LOGO } from "../../utils/constants"; // Importing constants for image URL
 import { Link } from "react-router-dom"; // Importing Link for client-side navigation
+import RestaurantMenu from "../RestaurantMenu/RestaurantMenu";
 
 // Functional component to display restaurant details
 export const RestaurantCard = (props) => {
   // Destructuring props to extract restaurant data
-  const { resData } = props; 
+  const { resData } = props;
+  // console.log(props);
 
   // Further destructuring to extract specific fields from restaurant data
   const {
@@ -59,4 +61,15 @@ export const RestaurantCard = (props) => {
       </div>
     </>
   );
+};
+
+export const WithPromotedRestaturantCard = (RestaurantCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="" style={{color:"green"}}>Vegetarian</label>
+        <RestaurantCard {...props} />
+      </div>
+    );
+  };
 };

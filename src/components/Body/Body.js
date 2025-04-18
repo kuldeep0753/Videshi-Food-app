@@ -1,4 +1,7 @@
-import { RestaurantCard } from "../RestaurantCard/RestaurantCard";
+import {
+  RestaurantCard,
+  WithPromotedRestaturantCard,
+} from "../RestaurantCard/RestaurantCard";
 import { useEffect, useState } from "react";
 import { Shimmer } from "../Shimmer/Shimmer";
 import { Link } from "react-router-dom";
@@ -10,6 +13,7 @@ const Body = () => {
   const [searchRestaurant, setSearchRestaurant] = useState([]); // Backup list for search functionality
 
   const onlineStatus = useOnlineStatus(true);
+  const Vegetarian = WithPromotedRestaturantCard(RestaurantCard);
 
   const RESTAURANT_API =
     "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5204303&lng=73.8567437&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
@@ -84,18 +88,24 @@ const Body = () => {
         {/* Top Rated Filter */}
         <div className="filter-top-rated">
           <button className="filter-btn" onClick={handleTopRated}>
-            TOP RATED
-          </button>
+          TOP RATED
+        </button>
         </div>
       </div>
 
       {/* Render restaurant cards */}
       <div className="restaurant-card">
         {listOfRestaurant.map((rescard) => (
-          <Link to={"/restaurant/" + rescard.info.id} key={rescard.info.id}>
-            <RestaurantCard resData={rescard.info}  />
-            {/* {console.log(rescard)} */}
-          </Link>
+          <Link
+          to={"/restaurant/" + rescard.info.id}
+          key={rescard.info.id}
+        >
+          {rescard.info.veg ? (
+            <Vegetarian resData={rescard.info} />
+          ) : (
+            <RestaurantCard resData={rescard.info} />
+          )}
+        </Link>
         ))}
       </div>
     </div>
