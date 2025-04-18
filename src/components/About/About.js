@@ -6,18 +6,18 @@ import Profile from "../../Profile/Profile";
 class About extends Component {
   constructor() {
     super();
-    console.log("I am parent class");
+    //console.log("I am parent class");
   }
 
   componentDidMount() {
-    console.log("Parent ComponentDidMount");
+    //console.log("Parent ComponentDidMount");
     // This lifecycle method is called after the component is mounted.
     // Commonly used for API calls to avoid blocking the UI during rendering.
     // Execution Order: constructor --> render --> componentDidMount
   }
 
   render() {
-    console.log("I am parent render() method");
+    //console.log("I am parent render() method");
 
     return (
       <Fragment>

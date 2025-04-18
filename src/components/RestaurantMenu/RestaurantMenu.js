@@ -8,13 +8,13 @@ import "./RestaurantMenu.css"; // Importing styling
 const RestaurantMenu = () => {
   // Getting restaurant ID from the route parameters
   const { resId } = useParams();
-  console.log(resId); // Logging restaurantId
+  //console.log(resId); // Logging restaurantId
 
   // Fetching restaurant menu using custom hook
   const restaurantItemList = useRestaurantMenu(resId);
   console.log(restaurantItemList); // Logging fetched data
 
-  // console.log("1");
+   //console.log("1");
 
   // Extracting regular menu cards from deeply nested response
   const regularCards =
@@ -31,9 +31,9 @@ const RestaurantMenu = () => {
 
   // Extracting restaurant name from API response
   const restaurantName = restaurantItemList[0]?.card?.card?.text;
-  console.log(restaurantName); // Logging restaurant name
+  //console.log(restaurantName); // Logging restaurant name
 
-    // console.log("2");
+     //console.log("2");
 
   // Show loading shimmer if data is not yet available
   if (restaurantItemList === null) return <Shimmer />;
@@ -41,7 +41,7 @@ const RestaurantMenu = () => {
   // Rendering restaurant name and menu
   return (
     <div className="cuisine-container">
-       {/* {console.log("5")} */}
+       {/* {//console.log("5")} */}
       <h1 className="restro-name">{restaurantName}</h1> {/* Display restaurant name */}
       <h2 className="menu-title">Menu</h2>
       <ul className="menu-list">

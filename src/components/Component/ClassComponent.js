@@ -12,11 +12,11 @@ class ClassComponent extends React.Component {
       count2: 2,
     };
 
-    console.log("I am Child Class component");
+    //console.log("I am Child Class component");
   }
 
   componentDidMount() {
-    console.log("Child ComponentDidMount");
+    //console.log("Child ComponentDidMount");
     // This lifecycle method is called once the component is mounted.
     // It is commonly used for API calls to prevent blocking the UI during initial rendering.
     // Execution Order: constructor --> render --> componentDidMount
@@ -41,7 +41,7 @@ class ClassComponent extends React.Component {
       this.setState({ count1: this.state.count1 + 1 }); // setState ensures the UI updates
     };
 
-    console.log("I am Child render() method");
+    //console.log("I am Child render() method");
     
     return (
       <>

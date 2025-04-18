@@ -15,7 +15,9 @@ export  const Header = () => {
    * if dependency with empty array ==> called once
    * if dependency on any value ==> then render when changes happen
    */
-  useEffect(()=>{console.log("I am rendering on condition😎")},[]);
+  useEffect(()=>{
+    // console.log("I am rendering on condition😎")
+  },[]);
   // TOggle Login LogOut
   const handleLoginBtn = ()=>{
     toggleBtn == "Log In"? setToggleBtn("Log Out"): setToggleBtn("Log In");
