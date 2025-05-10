@@ -6,7 +6,7 @@ import RestaurantMenu from "../RestaurantMenu/RestaurantMenu";
 export const RestaurantCard = (props) => {
   // Destructuring props to extract restaurant data
   const { resData } = props;
-  console.log(props);
+  // console.log(props);
 
   // Further destructuring to extract specific fields from restaurant data
   const {

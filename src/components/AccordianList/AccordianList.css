@@ -1,0 +1,20 @@
+
+.listItems{
+    margin-bottom: 10px;
+    
+  box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordian-data{
+  display: flex;
+}
+
+.accordian-description{
+   font-family: Gilroy;
+   font-size: 16px;
+   line-height: 21px;
+   letter-spacing: -0.4px;
+   font-weight: 200;
+   color: rgba(2, 6, 12, 0.6);
+   max-width: 85%;
+}
