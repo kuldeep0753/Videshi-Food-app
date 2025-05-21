@@ -4,20 +4,19 @@ import AccordianItemList from "../AccordianList/AccordianList";
 
 export const AccordianButton = (props) => {
   const [showItem, setShowItem] = useState(false);
-  const [ flag,setFlag] = useState("🔽");
+  const [flag, setFlag] = useState("🔽");
 
   const handleClick = () => {
     console.log("show/Hide");
     setShowItem(!showItem);
-  };
 
-  const handleArrowBtn = ()=>{
-    if(flag === "🔼"){
-      setFlag("🔽")
-    }else{
-      setFlag("🔼")
+    // Arrow button logic
+    if (flag === "🔼") {
+      setFlag("🔽");
+    } else {
+      setFlag("🔼");
     }
-  }
+  };
 
   return (
     <div className="accordion-wrapper">
@@ -25,7 +24,8 @@ export const AccordianButton = (props) => {
         <span className="accordion-title">
           {props.value.title} ({props.value.itemCards.length})
         </span>
-        <span className="accordion-icon" onClick={handleArrowBtn}>{flag}</span>
+        {/* //toggle arrow key */}
+        <span className="accordion-icon">{flag}</span>
       </button>
 
       {showItem && (
