@@ -1,26 +1,137 @@
-.nav-link{
-    color: white;
+/* Base link styles */
+a {
+  /* font-weight: 500;
+  font-size: 24px; */
+  text-decoration: none;
 }
 
- /* Header styling */
- .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    padding: 15px 20px;
-    background-color: #374045;
-    /* color: white; */
-    border-radius: 8px;
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-    margin-bottom: 20px;
+/* Nav link color */
+.nav-link {
+  /* color: white; */
+}
+
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1200px; */
+  padding: 15px 20px;
+  background-color: #f4f4f4; /* Dark bluish background */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* Logo container */
+.logo-container {
+  flex: 1 1 150px;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+.logo-image {
+     width: 48px;
+    height: 46px;
+}
+
+/* Navigation container */
+.nav-container {
+  flex: 2 1 300px;
+}
+
+/* Navigation list */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+}
+
+/* Navigation items */
+.nav-item {
+  font-size: 1rem;
+}
+
+/* Links inside nav */
+.nav-item a {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #ffd700; /* Gold highlight on hover */
+}
+
+/* Online status item */
+.status-item {
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+/* Toggle login/logout button */
+.toggle-btn {
+  background-color: #ffd700; /* Gold */
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #374045; /* Dark text */
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #e6c200; /* Darker gold */
+}
+
+/* Responsive */
+
+/* Small devices: stack nav below logo */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-a{
-    font-weight: 500;
-    color: white;
-    font-family: sans-serif;
-    font-size: 24px;
-    text-decoration: none;
+  .logo-container {
+    margin-bottom: 0.75rem;
   }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .nav-item a,
+  .toggle-btn {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .nav-list {
+    gap: 1rem;
+  }
+
+  .toggle-btn {
+    padding: 0.5rem 1.25rem;
+  }
+}

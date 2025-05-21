@@ -1,43 +1,41 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import { LOGO_LINK } from "../../utils/constants";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import useOnlineStatus from "../../utils/useOnlineStatus";
 
-
-export  const Header = () => {
-  /**TODO:Never declare any hooks under condition and looping and outside the higher function */
-  const [toggleBtn,setToggleBtn] = useState("Log In");
+export const Header = () => {
+  const [toggleBtn, setToggleBtn] = useState("Log In");
   const onlineStatus = useOnlineStatus(true);
 
-  /**Initially it is call atleast once
-   * if no dependency ==> then render every time
-   * if dependency with empty array ==> called once
-   * if dependency on any value ==> then render when changes happen
-   */
-  useEffect(()=>{
-    // console.log("I am rendering on condition😎")
-  },[]);
-  // TOggle Login LogOut
-  const handleLoginBtn = ()=>{
-    toggleBtn == "Log In"? setToggleBtn("Log Out"): setToggleBtn("Log In");
-  }
-    return (
-      <div className="header">
-        <div className="restro-image">
-          <img src={LOGO_LINK} alt="not loading" />
-        </div>
-        <div className="nav-link">
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>            
-            <li><Link to="/form">Form</Link></li>            
-            <li><Link to="/">🧑‍🦲Sign In</Link></li>
-            <li><Link to="/grocery">Grocery🍰</Link></li>
-            <li><Link to="/">Staus:{onlineStatus?"🟢":"🔴"}</Link></li>
-            <li><button className="toggleBtn" onClick={handleLoginBtn}>{toggleBtn}</button></li>
-          </ul>
-        </div>
-      </div>
-    );
+  useEffect(() => {}, []);
+
+  const handleLoginBtn = () => {
+    toggleBtn === "Log In" ? setToggleBtn("Log Out") : setToggleBtn("Log In");
   };
+
+  return (
+    <header className="header">
+      <div className="logo-container">
+        <img src={LOGO_LINK} alt="Restaurant Logo" className="logo-image" />
+      </div>
+      <nav className="nav-container">
+        <ul className="nav-list">
+          <li className="nav-item"><Link to="/">Home</Link></li>
+          <li className="nav-item"><Link to="/about">About</Link></li>
+          <li className="nav-item"><Link to="/form">Form</Link></li>
+          <li className="nav-item"><Link to="/">🧑‍🦲Sign In</Link></li>
+          <li className="nav-item"><Link to="/grocery">Grocery🍰</Link></li>
+          <li className="nav-item status-item">
+            Status: {onlineStatus ? "🟢" : "🔴"}
+          </li>
+          <li className="nav-item">
+            <button className="toggle-btn" onClick={handleLoginBtn}>
+              {toggleBtn}
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};

@@ -1,24 +1,38 @@
-import "./accordian.css";
+import "./AccordianButton.css";
 import { useState } from "react";
 import AccordianItemList from "../AccordianList/AccordianList";
+
 export const AccordianButton = (props) => {
-  const [showItem,setShowItem] = useState(false);
-  // console.log(props.value);
-  const handleClick = ()=>{
-    console.log("show/Hide")
+  const [showItem, setShowItem] = useState(false);
+  const [ flag,setFlag] = useState("🔽");
+
+  const handleClick = () => {
+    console.log("show/Hide");
     setShowItem(!showItem);
+  };
+
+  const handleArrowBtn = ()=>{
+    if(flag === "🔼"){
+      setFlag("🔽")
+    }else{
+      setFlag("🔼")
+    }
   }
+
   return (
-    <div>
+    <div className="accordion-wrapper">
       <button className="accordion-button" type="button" onClick={handleClick}>
-        <span>
+        <span className="accordion-title">
           {props.value.title} ({props.value.itemCards.length})
         </span>
-        <span>🔻🔽</span>
+        <span className="accordion-icon" onClick={handleArrowBtn}>{flag}</span>
       </button>
-      
-        {showItem && <AccordianItemList items={props.value.itemCards} />}
-      
+
+      {showItem && (
+        <div className="accordion-item-list">
+          <AccordianItemList items={props.value.itemCards} />
+        </div>
+      )}
     </div>
   );
 };
