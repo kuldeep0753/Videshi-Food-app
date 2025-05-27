@@ -3,19 +3,13 @@ import { useState } from "react";
 import AccordianItemList from "../AccordianList/AccordianList";
 
 export const AccordianButton = (props) => {
-  const [showItem, setShowItem] = useState(false);
-  const [flag, setFlag] = useState("🔽");
+  // const [showItem, setShowItem] = useState(false);
+  // const [flag, setFlag] = useState("🔽");🔼
 
+  //Lifting the state UP; By giving power to parent component , and its is called as a controlled component
   const handleClick = () => {
-    console.log("show/Hide");
-    setShowItem(!showItem);
-
-    // Arrow button logic
-    if (flag === "🔼") {
-      setFlag("🔽");
-    } else {
-      setFlag("🔼");
-    }
+    props.setShowIndexParent()
+    // props.toggleArrowFunc()
   };
 
   return (
@@ -25,10 +19,10 @@ export const AccordianButton = (props) => {
           {props.value.title} ({props.value.itemCards.length})
         </span>
         {/* //toggle arrow key */}
-        <span className="accordion-icon">{flag}</span>
+        <span className="accordion-icon">{props.toggleArrow}</span>
       </button>
 
-      {showItem && (
+      {props.showItem && (
         <div className="accordion-item-list">
           <AccordianItemList items={props.value.itemCards} />
         </div>
