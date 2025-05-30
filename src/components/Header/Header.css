@@ -5,6 +5,9 @@ a {
   text-decoration: none;
 }
 
+.context-api{
+  font-weight: 600;
+}
 /* Nav link color */
 .nav-link {
   /* color: white; */
