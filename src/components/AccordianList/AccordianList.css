@@ -1,0 +1,69 @@
+.accordion-list-container {
+  padding: 1rem;
+}
+
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.accordion-text-content {
+  flex: 1;
+}
+
+.accordion-item-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.accordion-item-price,
+.accordion-item-rating {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0.2rem 0;
+}
+
+.accordion-description {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.accordion-image-wrapper {
+  margin-top: 0.5rem;
+}
+
+.accordion-item-image {
+  width: 100%;
+  max-width: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.accordion-divider {
+  margin-top: 1rem;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Tablet and up */
+@media (min-width: 600px) {
+  .accordion-item {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .accordion-text-content {
+    flex: 2;
+  }
+
+  .accordion-image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 1rem;
+  }
+}

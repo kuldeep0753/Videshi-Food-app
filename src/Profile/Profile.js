@@ -15,18 +15,18 @@ class Profile extends Component{
     async componentDidMount(){
         const jsonData = await fetch("https://api.github.com/users/kuldeep0753");
         const data = await jsonData.json();
-        console.log(data);
+        //console.log(data);
         this.setState({userInfo:data})
     }
 
     //After component updated, this will called
     componentDidUpdate(){
-        console.log("Updation done!!")
+        //console.log("Updation done!!")
     }
 
     //Once switch to differnet page , this Profile component unmount
     componentWillUnmount(){
-        console.log("Unmount Done,when go to differnet page")
+        //console.log("Unmount Done,when go to differnet page")
     }
     render(){
 

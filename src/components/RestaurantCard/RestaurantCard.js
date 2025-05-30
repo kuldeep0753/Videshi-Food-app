@@ -54,7 +54,11 @@ export const RestaurantCard = (props) => {
         </b>
 
         {/* Display cuisines */}
-        <b className="dishes-name">{cuisines.join(" ,")}</b>
+        <b className="dishes-name">
+          {cuisines.length < 4
+            ? cuisines.join(" ,")
+            : cuisines.slice(0, 4).join(" ,") + "..."}
+        </b>
 
         {/* Display locality/address */}
         <p className="address">{locality}</p>
@@ -67,7 +71,9 @@ export const WithPromotedRestaturantCard = (RestaurantCard) => {
   return (props) => {
     return (
       <div>
-        <label className="" style={{color:"green"}}>Vegetarian</label>
+        <label className="" style={{ color: "green" }}>
+          Vegetarian
+        </label>
         <RestaurantCard {...props} />
       </div>
     );
