@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import useOnlineStatus from "../../utils/useOnlineStatus";
 import ContextApiHook from "../../utils/ContextApi";
+import { useSelector } from "react-redux";
 
 export const Header = () => {
   const [toggleBtn, setToggleBtn] = useState("Log In");
@@ -17,6 +18,10 @@ export const Header = () => {
   const handleLoginBtn = () => {
     toggleBtn === "Log In" ? setToggleBtn("Log Out") : setToggleBtn("Log In");
   };
+
+  //Cart Items
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log(cartItems);
 
   return (
     <header className="header">
@@ -50,6 +55,9 @@ export const Header = () => {
             </button>
           </li>
           <li className="nav-item context-api">{logInUser}</li>
+          <li className="nav-item">
+           <b>Cart({cartItems.length})</b>
+          </li>
         </ul>
       </nav>
     </header>

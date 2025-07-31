@@ -1,7 +1,16 @@
 import "./AccordianList.css";
 import { CUISINES_LOGO } from "../../utils/constants";
+import { addItems } from "../../utils/cartSlice";
+import { useDispatch } from "react-redux";
 
 const AccordianItemList = (props) => {
+  // console.log(props);
+  const dispatch = useDispatch();
+
+  const handleCartItem = (item) => {
+    console.log("click")
+    dispatch(addItems(item));
+  }
   return (
     <div className="accordion-list-container">
       {props.items.map((data, index) => (
@@ -24,6 +33,7 @@ const AccordianItemList = (props) => {
               src={CUISINES_LOGO + data?.card?.info?.imageId}
               alt={data.card.info.name}
             />
+            <button className="add-btn" onClick={()=>handleCartItem(data)}>Add+</button>
           </div>
           <hr className="accordion-divider" />
         </div>

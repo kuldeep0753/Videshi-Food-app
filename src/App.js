@@ -17,17 +17,23 @@ import Error from "./components/Error/Error";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Menu from "./components/Menu/Menu";
 
+// Redux store 
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+
 // ✅ **App Component**
 // Acts as the root component for the app layout
 const App = () => {
   return (
     <React.StrictMode>
+      <Provider store={appStore}>
       <div className="restaurant-container">
         {/* Header component displayed at the top of every page */}
         <Header />
         {/* Outlet acts as a placeholder for nested route components */}
         <Outlet />
-      </div>
+        </div>
+        </Provider>
     </React.StrictMode>
   );
 };
