@@ -1,6 +1,6 @@
 Here’s a **clean, well-documented, markdown-friendly version** of your note:
 --
-# 📚 React Revision
+# 📚 Videshi Food App
 
     ## 🖼 Layout of Food App
 ```
